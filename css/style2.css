@@ -1,7 +1,10 @@
 body{
-    background-color: #1815d9;
 }
 
+
+#mainNavbar{
+    background-color: #11246f;
+}
 .double-nav .breadcrumb-dn {
     color: #fff;
 }
@@ -30,6 +33,9 @@ body{
     #search{
         display: none;
     }
+    #navbarBrand{
+        display: none;
+    }
 }
 @media (min-width: 0px) and (max-width: 299px){
     #search{
@@ -38,48 +44,74 @@ body{
     #social{
         display: none;
     }
+    #navbarBrand{
+        display: none;
+    }
 }
-#title-map,#title-menu,#title-special{
+
+.content{
+    background-color: #ff8300;
+}
+.ContentSearch{
+    padding: 100px;
+    margin: 10px;
+    width: border-box;
+
+}
+.contentTwo{
+    padding: 20px 40px 30px 100px;
+    margin: 10px;
+
+}
+#secondColumn{
+    padding-top: 30px;
+}
+#thirdColumn{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*.premium,.normal{*/
+/*    background-color: #ff8300;*/
+/*}*/
+
+#pretext,#nortext{
+    color: #11246f;
+    font-size: xx-large;
+    font-style: normal;
+}
+.dropdown-divider{
+    padding-bottom: 30px;
+}
+.premium,.normal{
+    padding: 50px 90px 40px;
+}
+#premium-id1,#premium-id2,#premium-id3,#premium-id4,#premium-id5,#premium-id6,#premium-id7,#premium-id8,#premium-id9,
+#premium-id10,#premium-id11,#premium-id12{
+    padding-left: 10px;
+    padding-right: 10px;
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
-    position: relative;
     border: 2px solid #202326;
     overflow: hidden;
-    padding: 10px;
+    box-shadow: 0 1px 5px 1px #11246f;
 }
-#title-menu:hover,#title-special:hover,#title-map:hover{
-    box-shadow: 0 1px 5px 1px #39ed18;
-}
-#title-menu{
-    background-image: url("../img/10.png");
-    background-position: center;
-}
-#title-map{
-}
-#title-special{
-    background-image: url("../img/13.png");
-    background-position: center;
-}
-#title-map span,#title-menu span,#title-special span{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+#normal-id1,#normal-id2,#normal-id1,#normal-id3,#normal-id4,#normal-id5,#normal-id6,#normal-id7,#normal-id8,#normal-id9,
+#normal-id10,#normal-id11,#normal-id12{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 250px;
     width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    background-color: #dc3545;
-    color: #fdfdfe;
-    opacity: .9;
-}
-#id-menu{
-    padding-top: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #202326;
+    overflow: hidden;
+    box-shadow: 0 1px 5px 1px #369638;
 }
 .panel-footer{
     padding-top: 40px;
     padding-bottom: 30px;
 }
-#coperight{
-    background-color: #1815D9;
+.has-search .form-control {
+    padding-left: 2.375rem;
 }
